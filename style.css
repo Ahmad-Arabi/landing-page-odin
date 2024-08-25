@@ -12,7 +12,7 @@ body {
     display: flex;
     align-items: center;
     gap: 16px;
-    padding: 0 10px;
+    padding: 0 200px;
     flex-grow: 0;
 }
 
@@ -34,12 +34,61 @@ a {
 .hero {
     display: flex;
     justify-content: center;
+    align-items: stretch;
     background-color: #1F2937;
+    flex: 1;    
+    gap: 16px;
+    padding: 60px 200px;
 }
 
 .picture {
-    background-color: #E5E7EB;
+    background-color: #7b7e83;
     border: 1px solid grey;
     border-radius: 5px;
+    flex: 1;
 }
 
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.description {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    padding: 10px 24px;
+    font-size: 18px;
+    border-radius: 16px;
+    border: 0;
+}
+
+button:hover {
+    border: #3882F6;
+    background-color: white;
+    color:#3882F6;
+    transition: 800ms;
+}
+
+.hero-title {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 800px;
+    flex: 1;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    padding: 16px
+}

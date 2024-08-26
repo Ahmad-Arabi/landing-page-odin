@@ -136,3 +136,28 @@ button:hover {
     font-weight: bold;
     font-size: 20px;
 }
+
+/*quote styling*/
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 60px 540px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+}
+
+.quote .author {
+    font-size: 18px;
+    font-weight: bold;
+    align-self: flex-end;
+}

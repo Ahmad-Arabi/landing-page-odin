@@ -4,9 +4,10 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    gap: 48px;
 }
 
+/*header styling*/
 .header {
     background-color: #1F2937;
     display: flex;
@@ -31,6 +32,7 @@ a {
     color: #E5E7EB;
 }
 
+/*hero menu styling*/
 .hero {
     display: flex;
     justify-content: center;
@@ -64,13 +66,13 @@ a {
     background-color: #3882F6;
     padding: 10px 24px;
     font-size: 18px;
-    border-radius: 16px;
+    border-radius: 5px;
     border: 0;
 }
 
 button:hover {
     border: #3882F6;
-    background-color: white;
+    background-color: #F9FAF8;
     color:#3882F6;
     transition: 800ms;
 }
@@ -83,6 +85,7 @@ button:hover {
     flex: 1;
 }
 
+/*footer styling*/
 .footer {
     background-color: #1F2937;
     color: #E5E7EB;
@@ -90,5 +93,46 @@ button:hover {
     justify-content: center;
     align-items: center;
     font-size: 18px;
-    padding: 16px
+    padding: 16px;
+}
+
+/*subbmit styling*/
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    padding: 0 300px;
+} 
+
+.box {
+    background-color:#3882F6;
+    border-radius: 5px;
+    padding: 48px 100px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    flex: 1;
+}
+
+.box button {
+    background-color: #3882F6;
+    border: 2px solid #E5E7EB;
+    color: #E5E7EB;
+    border-radius: 5px;
+    padding: 10px 36px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.box button:hover {
+    background-color: #E5E7EB;
+    color: #3882F6;
+    transition: 800ms;
+}
+
+.main {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 20px;
 }

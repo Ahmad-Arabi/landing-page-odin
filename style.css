@@ -194,7 +194,6 @@ button:hover {
     align-items: center;
     margin: 48px 100px;
     text-align: center;
-    flex-wrap: wrap;
 }
 
 .photos img {

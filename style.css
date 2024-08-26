@@ -46,8 +46,16 @@ a {
 .picture {
     background-color: #7b7e83;
     border: 1px solid grey;
-    border-radius: 5px;
+    border-radius: 10px;
     flex: 1;
+    display: flex;
+    align-items: flex-start;
+}
+
+.picture img {
+    flex: 1;
+    height: auto;
+    border-radius: 10px;
 }
 
 .title {
@@ -148,6 +156,7 @@ button:hover {
   display: flex;
   flex-direction: column; 
   align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .quote .text {
@@ -160,4 +169,45 @@ button:hover {
     font-size: 18px;
     font-weight: bold;
     align-self: flex-end;
+}
+
+/*samples*/
+.samples {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.samples .title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+}
+
+.photos {
+    display: flex;
+    font-size: 18px;
+    color: #3f4e63;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 48px 100px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.photos img {
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    height: 200px;
+    object-fit: fill;
+    flex: 1;
+}
+
+.photos img:hover {
+    width: 500px;
+    height: 300px;
+    transition: 800ms;
+    border: 5px solid red;
 }

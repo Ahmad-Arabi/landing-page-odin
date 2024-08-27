@@ -74,20 +74,21 @@ a {
     color: #E5E7EB;
 }
 
-.hero button {
+.hero a {
     color: #F9FAF8;
     background-color: #3882F6;
-    padding: 10px 24px;
+    padding: 8px 28px;
     font-size: 18px;
     border-radius: 5px;
     border: 0;
+    transition: 300ms ease-out;
 }
 
-button:hover {
+.hero a:hover {
     border: #3882F6;
     background-color: #F9FAF8;
     color:#3882F6;
-    transition: 800ms;
+    transition: 300ms ease-in;
 }
 
 .hero-title {
@@ -126,22 +127,23 @@ button:hover {
     justify-content: space-between;
     font-size: 16px;
     flex: 1;
+    align-items: center;
 }
 
-.box button {
+.box a {
     background-color: #3882F6;
     border: 2px solid #E5E7EB;
     color: #E5E7EB;
     border-radius: 5px;
     padding: 10px 36px;
     font-size: 18px;
-    font-weight: bold;
+    transition: 300ms ease-out;
 }
 
-.box button:hover {
+.box a:hover {
     background-color: #E5E7EB;
     color: #3882F6;
-    transition: 800ms;
+    transition: 300ms ease-in;
 }
 
 .main {
@@ -207,13 +209,15 @@ button:hover {
     height: 200px;
     object-fit: fill;
     flex: 1;
-    transition: 0.5s ease-in-out;
+    transition: 0.8s ease-in-out;
 }
 
 .photos img:hover {
     width: 500px;
     height: 300px;
-    transition: 0.5s ease-in-out;
+    transition: 0.8s ease-in-out;
     border: 5px solid red;
 }
+
+
 

@@ -226,20 +226,20 @@ a {
 }
 
 .photos img {
-    border: 5px solid #3882F6;
+    border: 3px solid #3882F6;
     border-radius: 10px;
-    height: 200px;
-    width: 320px;
+    height: 180px;
+    width: 300px;
     object-fit: fill;
     flex: 1;
-    transition: 0.8s ease-in-out;
+    transition: 1s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .photos img:hover {
     width: 500px;
     height: 300px;
-    transition: 0.8s ease-in-out;
-    border: 5px solid red;
+    transition: 1s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 3px solid red;
 }
 
 
